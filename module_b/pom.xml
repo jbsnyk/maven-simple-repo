@@ -1,0 +1,17 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.example</groupId>
+    <artifactId>my-aggregate</artifactId>
+    <version>1.0.0</version>
+  </parent>
+  <artifactId>module-b</artifactId>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-core</artifactId>
+      <!-- same dep, also inherited from parent -->
+    </dependency>
+  </dependencies>
+</project>

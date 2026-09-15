@@ -7,7 +7,7 @@
 
   <modules>
     <module>module_a</module>
-    <module>moduleb</module>
+    <module>module_b</module>
   </modules>
 
   <dependencyManagement>

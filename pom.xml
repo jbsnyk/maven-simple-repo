@@ -6,17 +6,16 @@
   <packaging>pom</packaging>
 
   <modules>
-    <module>module-a</module>
-    <module>module-b</module>
+    <module>module_a</module>
+    <module>moduleb</module>
   </modules>
 
-  <!-- Shared dep declared in parent — inherited by children -->
   <dependencyManagement>
     <dependencies>
       <dependency>
         <groupId>org.apache.logging.log4j</groupId>
         <artifactId>log4j-core</artifactId>
-        <version>2.14.1</version>  <!-- intentionally vulnerable: Log4Shell -->
+        <version>2.14.1</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
